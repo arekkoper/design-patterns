@@ -1,0 +1,12 @@
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\bin\Debug\net6.0\DesignPatterns.Domain.deps.json
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\bin\Debug\net6.0\DesignPatterns.Domain.dll
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\bin\Debug\net6.0\DesignPatterns.Domain.pdb
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\obj\Debug\net6.0\DesignPatterns.Domain.csproj.AssemblyReference.cache
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\obj\Debug\net6.0\DesignPatterns.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\obj\Debug\net6.0\DesignPatterns.Domain.AssemblyInfoInputs.cache
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\obj\Debug\net6.0\DesignPatterns.Domain.AssemblyInfo.cs
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\obj\Debug\net6.0\DesignPatterns.Domain.csproj.CoreCompileInputs.cache
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\obj\Debug\net6.0\DesignPatterns.Domain.dll
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\obj\Debug\net6.0\refint\DesignPatterns.Domain.dll
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\obj\Debug\net6.0\DesignPatterns.Domain.pdb
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Domain\obj\Debug\net6.0\ref\DesignPatterns.Domain.dll

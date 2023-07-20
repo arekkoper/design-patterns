@@ -16,12 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Programowanie/design-patterns/DesignPatterns/DesignPatterns.Presentation/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/Programowanie/design-patterns/DesignPatterns/DesignPatterns.Presentation/Views/Home/FactoryMethod.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYWN0b3J5TWV0aG9kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programowanie/design-patterns/DesignPatterns/DesignPatterns.Presentation/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/Programowanie/design-patterns/DesignPatterns/DesignPatterns.Presentation/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Programowanie/design-patterns/DesignPatterns/DesignPatterns.Presentation/Views/Shared/Error.cshtml]

@@ -1,3 +1,9 @@
+using DesignPatterns.Application;
+using DesignPatterns.Application.FactoryMethod;
+using DesignPatterns.Application.FactoryMethod.Abstraction;
+using DesignPatterns.Application.FactoryMethod.Creators;
+using System.Reflection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

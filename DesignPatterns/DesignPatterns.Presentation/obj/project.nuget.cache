@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nPSagsyQB/1H5UuSP1VeHW+L0yz5ufTevfLWmAnP3jvirb5B5U3DflAVnq64xXxcfrYmHdOn7WHWx57qjUhcZg==",
+  "dgSpecHash": "61id16PqGNoHoOxb6IJb84v5UDLhTFahXdnZfFwfFAvj1XcrFAs1q5mhfnowLXkrdMhO2iEOMxaozxg1CWNmXA==",
   "success": true,
   "projectFilePath": "D:\\Programowanie\\design-patterns\\DesignPatterns\\DesignPatterns.Presentation\\DesignPatterns.Presentation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

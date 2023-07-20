@@ -2,7 +2,50 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <div class="row">
+        <h2 class="display-4">Design Patterns</h2>
+        <p class="text-muted">If you want more about design patterns, just go to <a href="https://refactoring.guru/">refactorign guru</a>.</p>
+        <div class="col-4">
+            <h3>Creational Patterns</h3>
+            <div class="list-group">
+                <a class="list-group-item list-group-item-action" asp-controller="Home" asp-action="FactoryMethod">Factory Method</a>
+                <a class="list-group-item list-group-item-action" >Abstract Factory</a>
+                <a class="list-group-item list-group-item-action" >Builder</a>
+                <a class="list-group-item list-group-item-action" >Prototype</a>
+                <a class="list-group-item list-group-item-action" >Singleton</a>
+            </div>
+        </div>
+        <div class="col-4">
+            <h3>Structural Patterns</h3>
+            <div class="list-group">
+                <a class="list-group-item list-group-item-action" >Adapter</a>
+                <a class="list-group-item list-group-item-action" >Bridge</a>
+                <a class="list-group-item list-group-item-action" >Composite</a>
+                <a class="list-group-item list-group-item-action" >Decorator</a>
+                <a class="list-group-item list-group-item-action" >Facade</a>
+                <a class="list-group-item list-group-item-action" >Flyweight</a>
+                <a class="list-group-item list-group-item-action" >Proxy</a>
+            </div>
+        </div>
+        <div class="col-4">
+            <h3>Behavioral Patterns</h3>
+            <div class="list-group">
+                <a class="list-group-item list-group-item-action" >Chain of Responsibility</a>
+                <a class="list-group-item list-group-item-action" >Command</a>
+                <a class="list-group-item list-group-item-action" >Iterator</a>
+                <a class="list-group-item list-group-item-action" >Mediator</a>
+                <a class="list-group-item list-group-item-action" >Memento</a>
+                <a class="list-group-item list-group-item-action" >Observer</a>
+                <a class="list-group-item list-group-item-action" >State</a>
+                <a class="list-group-item list-group-item-action" >Strategy</a>
+                <a class="list-group-item list-group-item-action" >Template Method</a>
+                <a class="list-group-item list-group-item-action" >Visitor</a>
+            </div>
+        </div>
+        
+
+    </div>
+
+
 </div>

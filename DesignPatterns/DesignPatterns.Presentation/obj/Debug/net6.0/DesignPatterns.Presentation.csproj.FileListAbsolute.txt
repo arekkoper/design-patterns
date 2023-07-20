@@ -29,3 +29,10 @@ D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\obj\
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\obj\Debug\net6.0\DesignPatterns.Presentation.pdb
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\obj\Debug\net6.0\DesignPatterns.Presentation.genruntimeconfig.cache
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\obj\Debug\net6.0\ref\DesignPatterns.Presentation.dll
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\bin\Debug\net6.0\MediatR.dll
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\bin\Debug\net6.0\DesignPatterns.Application.dll
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\bin\Debug\net6.0\DesignPatterns.Domain.dll
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\bin\Debug\net6.0\DesignPatterns.Application.pdb
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\bin\Debug\net6.0\DesignPatterns.Domain.pdb
+D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation\obj\Debug\net6.0\DesignPatterns.Presentation.csproj.CopyComplete
