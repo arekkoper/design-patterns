@@ -2,16 +2,33 @@
 @using DesignPatterns.Application.FactoryMethod.Products;
 @model FactoryMethodPattern;
 
+@{
+    var receptionistFactory = Model.GetEmployeeFactory("receptionist");
+    var specialistFactory = Model.GetEmployeeFactory("specialist");
+    var securityFactory = Model.GetEmployeeFactory("security");
+}
+
 <h1>Factory Method</h1>
 
-<p>Create receptionist... @{ var receptionist = Model.GetEmployeeFactory("receptionist").CreateEmployee() as Receptionist;}</p>
-<p>Created receptionist @receptionist!.Name @receptionist.Surname </p>
+<p>Create receptionist... @{
+        var receptionist = receptionistFactory.Create();
+    }</p>
+<p>Created receptionist @receptionist.Name @receptionist.Surname </p>
 <br />
-<p>Create specialist... @{ var specialist = Model.GetEmployeeFactory("specialist").CreateEmployee() as Specialist; }</p>
-<p>Created specialist @specialist!.Name @specialist.Surname </p>
+<p>Create specialist... @{
+        var specialist = specialistFactory.Create();
+    }</p>
+<p>Created specialist @specialist.Name @specialist.Surname </p>
+<br />
+<p>Create security...</p>
+@{
+    var security = securityFactory.Create();
+}
+<p>Created security @security.Name @security.Surname </p>
 <br />
 <p>Do some work!</p>
 <p>@receptionist.Name: @receptionist.Work()</p>
 <p>@specialist.Name: @specialist.Work()</p>
+<p>@security.Name: @security.Work()</p>
 
 

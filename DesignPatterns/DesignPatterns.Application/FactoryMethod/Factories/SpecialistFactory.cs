@@ -2,13 +2,13 @@
 using DesignPatterns.Application.FactoryMethod.Abstraction;
 using DesignPatterns.Application.FactoryMethod.Products;
 
-namespace DesignPatterns.Application.FactoryMethod.Creators
+namespace DesignPatterns.Application.FactoryMethod.Factories
 {
     public class SpecialistFactory : EmployeeFactory
     {
-        public override IEmployee CreateEmployee()
+        public override IEmployee Create()
         {
-            return new Specialist("Andrew", "Worholm");
+            return new Specialist(GenerateName(), GenerateSurname());
         }
     }
 }

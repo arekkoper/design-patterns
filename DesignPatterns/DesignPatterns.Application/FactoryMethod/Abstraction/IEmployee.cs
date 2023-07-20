@@ -8,6 +8,8 @@ namespace DesignPatterns.Application.FactoryMethod.Abstraction
 {
     public interface IEmployee
     {
+        string Name { get; }
+        string Surname { get; }
         string Work();
     }
 }

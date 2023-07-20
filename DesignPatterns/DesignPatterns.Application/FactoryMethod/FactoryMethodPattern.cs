@@ -1,7 +1,5 @@
-﻿
-using DesignPatterns.Application.FactoryMethod.Abstraction;
-using DesignPatterns.Application.FactoryMethod.Creators;
-using DesignPatterns.Application.FactoryMethod.Products;
+﻿using DesignPatterns.Application.FactoryMethod.Abstraction;
+using DesignPatterns.Application.FactoryMethod.Factories;
 
 namespace DesignPatterns.Application.FactoryMethod
 {
@@ -13,6 +11,7 @@ namespace DesignPatterns.Application.FactoryMethod
         {
             _factories.Add("receptionist", new ReceptionistFactory());
             _factories.Add("specialist", new SpecialistFactory());
+            _factories.Add("security", new SecurityFactory());
         }
 
         public EmployeeFactory GetEmployeeFactory(string product)
