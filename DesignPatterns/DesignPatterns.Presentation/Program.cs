@@ -7,6 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<IPatternLoader, PatternLoaderService>(provider =>
+{
+    var loader = new PatternLoaderService();
+    loader.Load();
+    return loader;
+});
 
 var app = builder.Build();
 

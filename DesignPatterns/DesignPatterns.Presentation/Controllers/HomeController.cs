@@ -11,25 +11,11 @@ namespace DesignPatterns.Presentation.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly List<IPattern> _patternsList = new();
+        private readonly IPatternLoader _patternLoader;
 
-        public HomeController()
+        public HomeController(IPatternLoader patternLoader)
         {
-            LoadPatterns();
-        }
-
-        private void LoadPatterns()
-        {
-            var interfaceType = typeof(IPattern);
-            var patternTypes = Assembly.GetAssembly(interfaceType)!
-                .GetTypes()
-                .Where(t => t.IsClass && !t.IsAbstract && interfaceType.IsAssignableFrom(t));
-
-            foreach (var patternType in patternTypes)
-            {
-                IPattern patternInstance = (IPattern)Activator.CreateInstance(patternType)!;
-                _patternsList.Add(patternInstance);
-            }
+            _patternLoader = patternLoader;
         }
 
         public IActionResult Index()
@@ -39,7 +25,7 @@ namespace DesignPatterns.Presentation.Controllers
 
         public IActionResult Pattern(string name)
         {
-            var pattern = _patternsList.FirstOrDefault(p => p.GetType().Name.Equals(name, StringComparison.OrdinalIgnoreCase) );
+            var pattern = _patternLoader.GetPatterns().FirstOrDefault(p => p.GetType().Name.Equals(name, StringComparison.OrdinalIgnoreCase) );
 
             if (pattern == null)
                 return NotFound();
