@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.Application;
+using DesignPatterns.Application.AbstractFactory;
 using DesignPatterns.Application.FactoryMethod;
 using DesignPatterns.Presentation.Models;
 using MediatR;
@@ -14,6 +15,7 @@ namespace DesignPatterns.Presentation.Controllers
         public HomeController()
         {
             _patterns.Add("FactoryMethod", new FactoryMethodPattern());
+            _patterns.Add("AbstractFactory", new AbstractFactoryPattern());
         }
 
         public IActionResult Index()
@@ -24,6 +26,13 @@ namespace DesignPatterns.Presentation.Controllers
         public IActionResult FactoryMethod()
         {
             var pattern = _patterns["FactoryMethod"];
+
+            return View(pattern);
+        }
+
+        public IActionResult AbstractFactory()
+        {
+            var pattern = _patterns["AbstractFactory"];
 
             return View(pattern);
         }

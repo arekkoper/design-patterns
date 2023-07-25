@@ -1,0 +1,27 @@
+﻿@using DesignPatterns.Application.AbstractFactory;
+@model AbstractFactoryPattern;
+
+@{
+    var casualClothesFactory = Model.GetClothesFactory("CasualClothesFactory");
+    var elegantClothesFactory = Model.GetClothesFactory("ElegantClothesFactory");
+}
+
+<h1>AbstractFactory</h1>
+
+<p>I'm casual guy and I will buy normal clothes</p>
+<p>Buying... 
+    @{
+        var casualShirt = casualClothesFactory.CreateShirt();
+        var casualTrousers = casualClothesFactory.CreateTrousers();
+    }
+</p>
+<p>I bought @casualShirt.GetType().Name and @casualTrousers.GetType().Name </p>
+
+<p>I'm elegant, serious man and I will buy elegant clothes</p>
+<p>Buying... 
+    @{
+        var elegantShirt = elegantClothesFactory.CreateShirt();
+        var elegantrousers = elegantClothesFactory.CreateTrousers();
+    }
+</p>
+<p>I bought @elegantShirt.GetType().Name and @elegantrousers.GetType().Name </p>

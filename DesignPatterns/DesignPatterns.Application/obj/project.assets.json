@@ -47,16 +47,6 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
-      },
-      "DesignPatterns.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/DesignPatterns.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DesignPatterns.Domain.dll": {}
-        }
       }
     }
   },
@@ -115,16 +105,10 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "DesignPatterns.Domain/1.0.0": {
-      "type": "project",
-      "path": "../DesignPatterns.Domain/DesignPatterns.Domain.csproj",
-      "msbuildProject": "../DesignPatterns.Domain/DesignPatterns.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DesignPatterns.Domain >= 1.0.0",
       "MediatR >= 12.1.1"
     ]
   },
@@ -154,11 +138,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\Programowanie\\design-patterns\\DesignPatterns\\DesignPatterns.Domain\\DesignPatterns.Domain.csproj": {
-              "projectPath": "D:\\Programowanie\\design-patterns\\DesignPatterns\\DesignPatterns.Domain\\DesignPatterns.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

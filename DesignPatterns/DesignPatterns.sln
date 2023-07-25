@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Presentation", "DesignPatterns.Presentation\DesignPatterns.Presentation.csproj", "{E5C42BF3-8DA1-47AE-8B0C-B3C8594D9C09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Presentation", "DesignPatterns.Presentation\DesignPatterns.Presentation.csproj", "{E5C42BF3-8DA1-47AE-8B0C-B3C8594D9C09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Application", "DesignPatterns.Application\DesignPatterns.Application.csproj", "{FE584344-1B4C-4EBB-82DA-509E9B119F18}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Domain", "DesignPatterns.Domain\DesignPatterns.Domain.csproj", "{9AC15669-B42A-43F8-9149-032DB2764A83}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Infrastructure", "DesignPatterns.Infrastructure\DesignPatterns.Infrastructure.csproj", "{B4FDAFE8-CB2A-49D6-8197-BDA33639933E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Application", "DesignPatterns.Application\DesignPatterns.Application.csproj", "{FE584344-1B4C-4EBB-82DA-509E9B119F18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +21,6 @@ Global
 		{FE584344-1B4C-4EBB-82DA-509E9B119F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE584344-1B4C-4EBB-82DA-509E9B119F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE584344-1B4C-4EBB-82DA-509E9B119F18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9AC15669-B42A-43F8-9149-032DB2764A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AC15669-B42A-43F8-9149-032DB2764A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AC15669-B42A-43F8-9149-032DB2764A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AC15669-B42A-43F8-9149-032DB2764A83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4FDAFE8-CB2A-49D6-8197-BDA33639933E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4FDAFE8-CB2A-49D6-8197-BDA33639933E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4FDAFE8-CB2A-49D6-8197-BDA33639933E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4FDAFE8-CB2A-49D6-8197-BDA33639933E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

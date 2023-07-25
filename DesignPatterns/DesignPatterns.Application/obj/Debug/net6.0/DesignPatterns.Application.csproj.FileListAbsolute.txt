@@ -1,14 +1,11 @@
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\bin\Debug\net6.0\DesignPatterns.Application.deps.json
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\bin\Debug\net6.0\DesignPatterns.Application.dll
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\bin\Debug\net6.0\DesignPatterns.Application.pdb
-D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\bin\Debug\net6.0\DesignPatterns.Domain.dll
-D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\bin\Debug\net6.0\DesignPatterns.Domain.pdb
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\obj\Debug\net6.0\DesignPatterns.Application.csproj.AssemblyReference.cache
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\obj\Debug\net6.0\DesignPatterns.Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\obj\Debug\net6.0\DesignPatterns.Application.AssemblyInfoInputs.cache
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\obj\Debug\net6.0\DesignPatterns.Application.AssemblyInfo.cs
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\obj\Debug\net6.0\DesignPatterns.Application.csproj.CoreCompileInputs.cache
-D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\obj\Debug\net6.0\DesignPatterns.Application.csproj.CopyComplete
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\obj\Debug\net6.0\DesignPatterns.Application.dll
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\obj\Debug\net6.0\refint\DesignPatterns.Application.dll
 D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Application\obj\Debug\net6.0\DesignPatterns.Application.pdb
