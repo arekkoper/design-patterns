@@ -16,12 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Programowanie\design-patterns\DesignPatterns\DesignPatterns.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Programowanie/design-patterns/DesignPatterns/DesignPatterns.Presentation/Views/Home/AbstractFactory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYnN0cmFjdEZhY3RvcnkuY3NodG1s
+[D:/Programowanie/design-patterns/DesignPatterns/DesignPatterns.Presentation/Views/Home/AbstractFactoryPattern.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYnN0cmFjdEZhY3RvcnlQYXR0ZXJuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programowanie/design-patterns/DesignPatterns/DesignPatterns.Presentation/Views/Home/FactoryMethod.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYWN0b3J5TWV0aG9kLmNzaHRtbA==
+[D:/Programowanie/design-patterns/DesignPatterns/DesignPatterns.Presentation/Views/Home/FactoryMethodPattern.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGYWN0b3J5TWV0aG9kUGF0dGVybi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Programowanie/design-patterns/DesignPatterns/DesignPatterns.Presentation/Views/Home/Index.cshtml]

@@ -5,17 +5,31 @@ using DesignPatterns.Presentation.Models;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace DesignPatterns.Presentation.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly Dictionary<string, IPattern> _patterns = new();
+        private readonly List<IPattern> _patternsList = new();
 
         public HomeController()
         {
-            _patterns.Add("FactoryMethod", new FactoryMethodPattern());
-            _patterns.Add("AbstractFactory", new AbstractFactoryPattern());
+            LoadPatterns();
+        }
+
+        private void LoadPatterns()
+        {
+            var interfaceType = typeof(IPattern);
+            var patternTypes = Assembly.GetAssembly(interfaceType)!
+                .GetTypes()
+                .Where(t => t.IsClass && !t.IsAbstract && interfaceType.IsAssignableFrom(t));
+
+            foreach (var patternType in patternTypes)
+            {
+                IPattern patternInstance = (IPattern)Activator.CreateInstance(patternType)!;
+                _patternsList.Add(patternInstance);
+            }
         }
 
         public IActionResult Index()
@@ -23,18 +37,16 @@ namespace DesignPatterns.Presentation.Controllers
             return View();
         }
 
-        public IActionResult FactoryMethod()
+        public IActionResult Pattern(string name)
         {
-            var pattern = _patterns["FactoryMethod"];
+            var pattern = _patternsList.FirstOrDefault(p => p.GetType().Name.Equals(name, StringComparison.OrdinalIgnoreCase) );
 
-            return View(pattern);
-        }
+            if (pattern == null)
+                return NotFound();
 
-        public IActionResult AbstractFactory()
-        {
-            var pattern = _patterns["AbstractFactory"];
+            string viewName = $"/Views/Home/{pattern.GetType().Name}.cshtml";
 
-            return View(pattern);
+            return View(viewName, pattern);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
