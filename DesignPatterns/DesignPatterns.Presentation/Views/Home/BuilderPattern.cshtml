@@ -1,1 +1,50 @@
-﻿
+﻿@using DesignPatterns.Application.Builder;
+@using DesignPatterns.Application.Builder.PizzaExample;
+
+@model BuilderPattern;
+
+@{
+    var pizzaBuilder = Model.GetBuilder("Pizza") as PizzaBuilder;
+}
+
+<h1>Builder</h1>
+
+<p>Lets build some amazing pizza!</p>
+
+<p>I want the biggest Capricioza with:</p>
+<ul>
+    <li>Tomato sauce</li>
+    <li>Chili</li>
+    <li>Olive</li>
+    <li>Cheese</li>
+    <li>Sausage</li>
+</ul>
+
+<p>Preparing pizza...</p>
+@{
+    var pizza = pizzaBuilder!
+                .SetName("Capricioza")
+                .SetSize("The biggest!")
+                .AddTopping("Tomato sauce")
+                .AddTopping("Chili")
+                .AddTopping("Olive")
+                .AddTopping("Sausage")
+                .AddCheese()
+                .Build();
+}
+<p>I have following pizza!</p>
+<ul>
+    <li>Name: @pizza.Name</li>
+    <li>Size: @pizza.Size</li>
+    <li>Toppings:
+        <ul>
+            @{
+                foreach(var topping in pizza.Toppings)
+                {
+                    <li>@topping</li>
+                }
+            }
+        </ul>
+    </li>
+    <li>Has cheese: @pizza.HasCheese</li>
+</ul>
